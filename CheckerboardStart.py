@@ -29,8 +29,3 @@ for i in range(8):
 
 
 pygame.display.flip()
-
-while True:
-    for event in pygame.event.get():
-        if event.type==pygame.QUIT:
-            sys.exit()
